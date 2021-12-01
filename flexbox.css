@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  background: yellow;
+  height: 600px;
+  width: 600px;
+  justify-content: space-between;
+
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+
+
+
+
+}
+.box {
+ height: 250px;
+ width: 115px;
+ display: flex;
+ background: green;
+ margin: 10px;
+ justify-content: center;
+ align-items: center;
+
+
+}
+.cercle {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background: grey;
+  display: flex;
+  opacity: 0.5;
+  justify-content: center;
+  align-items: center;
+}
